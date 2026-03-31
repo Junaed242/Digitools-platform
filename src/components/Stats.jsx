@@ -4,7 +4,7 @@ const Stats = () => {
   return (
     <section className="px-6 md:px-12 py-10">
       {/* Gradient Container */}
-      <div className="max-w-7xl mx-auto bg-[#631dfa] rounded-xl py-12 px-6 flex flex-col md:flex-row items-center justify-evenly gap-8 text-white shadow-xl">
+      <div className="mx-auto bg-[#631dfa] rounded-xl py-12 px-6 flex flex-col md:flex-row items-center justify-evenly gap-8 text-white shadow-xl">
         {/* Active Users */}
         <div className="text-center flex-1">
           <h2 className="text-5xl font-black mb-2">50K+</h2>

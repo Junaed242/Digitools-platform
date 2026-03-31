@@ -4,11 +4,11 @@ import { FaFacebookSquare, FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-[#0f172a] text-slate-400 py-20 pb-10 px-6 md:px-12">
-      <div className="max-w-7xl mx-auto">
+      <div className=" mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
           <div className="lg:col-span-2 space-y-6">
             <h2 className="text-3xl font-black text-white">DigiTools</h2>
-            <p className="text-sm leading-relaxed max-w-xs">
+            <p className="text-sm max-w-xs">
               Premium digital tools for creators, professionals, and businesses.
               Work smarter with our suite of powerful tools.
             </p>
@@ -16,7 +16,7 @@ const Footer = () => {
 
           {/* Product Column */}
           <div className="space-y-6">
-            <h4 className="text-white font-bold uppercase tracking-wider text-xs">
+            <h4 className="text-white font-bold uppercase text-xs">
               Product
             </h4>
             <ul className="space-y-4 text-sm">
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
 
           <div className="space-y-6">
-            <h4 className="text-white font-bold uppercase tracking-wider text-xs">
+            <h4 className="text-white font-bold uppercase text-xs">
               Company
             </h4>
             <ul className="space-y-4 text-sm">
@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
 
           <div className="space-y-6">
-            <h4 className="text-white font-bold uppercase tracking-wider text-xs">
+            <h4 className="text-white font-bold uppercase text-xs">
               Social Links
             </h4>
             <div className="flex gap-4">
@@ -87,7 +87,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
+        <div className="pt-8 border-t border-slate-600 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
           <p>© 2026 Digitools. All rights reserved.</p>
           <div className="flex gap-8">
             <span className="hover:text-white cursor-pointer">

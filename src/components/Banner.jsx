@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <section className="px-12 py-20 flex flex-col lg:flex-row items-center justify-between gap-12 bg-white">
       {/* Left Content */}
-      <div className="max-w-xl space-y-6">
+      <div className=" space-y-6">
         {/* Floating Badge */}
         <div className="inline-flex items-center gap-2 bg-purple-50 text-[#631dfa] px-3 py-1 rounded-full text-xs font-bold border border-purple-100">
           <span className="w-2 h-2 bg-[#631dfa] rounded-full animate-pulse"></span>

@@ -47,7 +47,7 @@ const MainSection = ({
     
       {activeTab === "products" ? (
      
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
           {products.map((product) => (
             <div
               key={product.id}
@@ -95,7 +95,7 @@ const MainSection = ({
           ))}
         </div>
       ) : (
-        <div className="max-w-3xl mx-auto bg-slate-50/50 border border-slate-100 rounded-3xl p-6 md:p-10 shadow-sm">
+        <div className=" mx-auto bg-slate-50/50 border border-slate-100 rounded-3xl p-6 md:p-10 shadow-sm">
           <h3 className="text-xl font-bold mb-6">Your Cart</h3>
           {cart.length === 0 ? (
             <div className="text-center py-10 text-slate-400 font-medium">
@@ -117,7 +117,7 @@ const MainSection = ({
                   </div>
                   <button
                     onClick={() => handleRemove(item.id)}
-                    className="text-rose-500 text-sm font-bold hover:underline"
+                    className="text-rose-500 text-sm font-bold"
                   >
                     Remove
                   </button>

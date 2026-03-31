@@ -28,7 +28,7 @@ const Steps = () => {
 
   return (
     <section id="steps" className="py-20 px-6 md:px-12 bg-slate-50">
-      <div className="max-w-7xl mx-auto">
+      <div className="mx-auto">
         {/* Header */}
         <div className="text-center max-w-lg mx-auto mb-16 space-y-3">
           <h2 className="text-4xl font-black text-slate-900">
