@@ -8,6 +8,7 @@ import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Steps from "./components/Steps";
+import Footer from "./components/Footer";
 function App() {
   const [cart, setCart] = useState([]);
 
@@ -49,6 +50,7 @@ function App() {
         handleCheckout={handleCheckout}
       />
       <Steps />
+      <Footer />
       <ToastContainer />
     </>
   );
