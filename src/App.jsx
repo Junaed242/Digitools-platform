@@ -7,6 +7,7 @@ import productsData from "./products.json";
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Steps from "./components/Steps";
 function App() {
   const [cart, setCart] = useState([]);
 
@@ -47,6 +48,7 @@ function App() {
         handleRemove={handleRemove}
         handleCheckout={handleCheckout}
       />
+      <Steps />
       <ToastContainer />
     </>
   );
