@@ -11,7 +11,7 @@ const Stats = () => {
           <p className="text-white/80 font-medium">Active Users</p>
         </div>
 
-        {/* Vertical Divider */}
+        {/* Divider */}
         <div className="hidden md:block h-16 bg-white/20"></div>
 
         {/* Premium Tools */}
@@ -20,7 +20,7 @@ const Stats = () => {
           <p className="text-white/80 font-medium">Premium Tools</p>
         </div>
 
-        {/* Vertical Divider */}
+        {/* Divider */}
         <div className="hidden md:block h-16 bg-white/20"></div>
 
         {/* Rating */}

@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = ({ cartCount }) => {
   return (
-    <nav className="flex items-center justify-between lg:px-12 px-2 py-6 bg-white border-b border-blue-500/20">
+    <nav className="flex items-center justify-between lg:px-12 px-2 py-6 bg-white">
       {/* Logo */}
       <div className="text-2xl font-black text-[#631dfa] flex items-center gap-1">
         DigiTools
