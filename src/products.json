@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Content Generator",
+    "description": "Create high-quality blog posts and social media captions in seconds using advanced NLP.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "popular",
+    "features": ["Unlimited AI Words", "SEO Optimization", "50+ Templates"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2103/2103633.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Asset Pro",
+    "description": "A massive library of premium UI kits, icons, and 3D illustrations for your next project.",
+    "price": 99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["5000+ Assets", "Commercial License", "Weekly Updates"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1157/1157109.png"
+  },
+  {
+    "id": 3,
+    "name": "Workflow Automator",
+    "description": "Connect your favorite apps and automate repetitive tasks without writing a single line of code.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Efficiency",
+    "tagType": "best seller",
+    "features": ["100+ Integrations", "Real-time Sync", "Custom Logic"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4962/4962539.png"
+  },
+  {
+    "id": 4,
+    "name": "SEO Master Tool",
+    "description": "Rank higher on Google with deep keyword research and competitor analysis data.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "Top Rated",
+    "tagType": "popular",
+    "features": ["Backlink Checker", "Site Audit", "Daily Rankings"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2621/2621113.png"
+  },
+  {
+    "id": 5,
+    "name": "Cloud Storage Plus",
+    "description": "Secure, encrypted cloud storage for your team with seamless file sharing capabilities.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "Reliable",
+    "tagType": "best seller",
+    "features": ["2TB Storage", "End-to-end Encryption", "Team Folders"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2906/2906206.png"
+  },
+  {
+    "id": 6,
+    "name": "Video Editor Online",
+    "description": "Browser-based professional video editing with 4K export and stock footage library.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Limited Deal",
+    "tagType": "new",
+    "features": ["No Watermark", "Stock Library", "Direct Social Upload"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3059/3059518.png"
+  }
+]
