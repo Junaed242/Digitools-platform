@@ -14,7 +14,7 @@ function App() {
   const [cart, setCart] = useState([]);
 
   const handleAddToCart = (product) => {
-    // Check if already in cart to avoid duplicate toasts
+    // Check if already in cart to avoid duplicates
     const isExist = cart.find((item) => item.id === product.id);
 
     if (!isExist) {

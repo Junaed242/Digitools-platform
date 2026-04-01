@@ -1,16 +1,27 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce platform showcasing digital tools and services with an intuitive user interface and seamless shopping experience.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+DigiTools Platform is a React-based web application designed to help users discover, explore, and purchase a wide variety of digital tools. The platform features a responsive design, real-time cart management, and user-friendly notifications to enhance the overall shopping experience.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** - Frontend library for building user interfaces
+- **JavaScript (ES6+)** - Programming language
+- **Tailwind CSS** - Utility-first CSS framework for styling
+- **DaisyUI** - Component library built on Tailwind CSS
+- **React Toastify** - Toast notifications for user feedback
+- **React Icons** - Popular icon library for React
+- **Lucide Icons** - Beautiful and consistent icon set
+- **JSON** - Data management for products
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ **Smart Cart Management** - Add/remove products from cart with duplicate prevention and instant notifications
+
+🛍️ **Dynamic Product Display** - Browse through a curated collection of digital tools with detailed product information and pricing
+
+📊 **Interactive Dashboard** - View platform statistics, pricing tiers, and step-by-step guides to help users get started
+
