@@ -9,6 +9,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Steps from "./components/Steps";
 import Footer from "./components/Footer";
+import Pricing from "./components/Pricing";
 function App() {
   const [cart, setCart] = useState([]);
 
@@ -39,7 +40,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar cartCount={cart.length} />
       <Banner />
       <Stats />
       <MainSection
@@ -50,6 +51,7 @@ function App() {
         handleCheckout={handleCheckout}
       />
       <Steps />
+      <Pricing />
       <Footer />
       <ToastContainer />
     </>

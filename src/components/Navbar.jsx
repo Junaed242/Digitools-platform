@@ -4,26 +4,35 @@ import React from "react";
 const Navbar = ({ cartCount }) => {
   return (
     <nav className="flex items-center justify-between lg:px-12 px-2 py-6 bg-white">
-      {/* Logo */}
+      
       <div className="text-2xl font-black text-[#631dfa] flex items-center gap-1">
         DigiTools
       </div>
 
-      {/* Center Links */}
       <ul className="hidden md:flex gap-8 text-sm font-semibold text-slate-600">
         <li>
-          Products
+          <a href="#products" className="hover:text-[#631dfa] cursor-pointer transition">
+            Products
+          </a>
         </li>
-        <li className="hover:text-[#631dfa] cursor-pointer transition">
-          Features
+        <li>
+          <a href="#features" className="hover:text-[#631dfa] cursor-pointer transition">
+            Features
+          </a>
         </li>
-        <li className="hover:text-[#631dfa] cursor-pointer transition">
-          Pricing
+        <li>
+          <a href="#pricing" className="hover:text-[#631dfa] cursor-pointer transition">
+            Pricing
+          </a>
         </li>
-        <li className="hover:text-[#631dfa] cursor-pointer transition">
-          Testimonials
+        <li>
+          <a href="#testimonials" className="hover:text-[#631dfa] cursor-pointer transition">
+            Testimonials
+          </a>
         </li>
-        <li className="hover:text-[#631dfa] cursor-pointer transition">FAQ</li>
+        <li>
+          <a href="#faq" className="hover:text-[#631dfa] cursor-pointer transition">FAQ</a>
+        </li>
       </ul>
 
       <div className="flex items-center gap-6">
